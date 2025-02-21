@@ -15,11 +15,11 @@ markdown-it-py==3.0.0
 MarkupSafe==2.1.1
 mdurl==0.1.2
 narwhals==1.27.1
-numpy # バージョン指定を削除
-packaging==24.2
+numpy
+packaging  # バージョン指定を削除
 pandas==2.2.3
-pillow<11 # streamlitと互換性のあるバージョンにする
-protobuf<4 # streamlitと互換性のあるバージョンにする
+pillow<11
+protobuf<4
 pyarrow==19.0.1
 pydeck==0.9.1
 Pygments==2.19.1
